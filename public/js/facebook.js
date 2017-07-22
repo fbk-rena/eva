@@ -1,4 +1,13 @@
-  // This is called with the results from from FB.getLoginStatus().
+FB.init:
+FB.getLoginStatus(function(response) {
+  if (response.status === 'connected') {
+    console.log('Logged in.');
+  }
+  else {
+    FB.login();
+  }
+});
+/*  // This is called with the results from from FB.getLoginStatus().
   function statusChangeCallback(response) {
     console.log('statusChangeCallback');
     console.log(response);
@@ -71,3 +80,4 @@
         'Thanks for logging in, ' + response.name + '!';
     });
   }
+*/

@@ -2,7 +2,7 @@
   height: 100vh !important;
   display: flex;
   align-items: flex-end;
-  background-image: url(./assets/img/slide-pregnant.jpg);
+  background-image: url(assets/img/slide-pregnant.jpg);
   /*.slides {
       @extend .slider
   }*/ }
