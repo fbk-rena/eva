@@ -1,7 +1,11 @@
-.slider, .slider .slides {
+.slider {
   height: 100vh !important;
   display: flex;
-  align-items: flex-end; }
+  align-items: flex-end;
+  background-image: url(./assets/img/slide-pregnant.jpg);
+  /*.slides {
+      @extend .slider
+  }*/ }
   .slider #btn-contacto {
     border: solid 1px;
     cursor: pointer; }
