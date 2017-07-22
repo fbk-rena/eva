@@ -1,0 +1,29 @@
+//#ff00bf
+$rosa: #ff00bf;
+
+.slider {
+    height: 100vh !important;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(assets/img/slide-pregnant.jpg);
+    
+    /*.slides {
+        @extend .slider
+    }*/
+    #btn-contacto {
+        border: solid 1px;
+        cursor: pointer;
+    }
+    #go-down{
+        margin-left: 45vw;
+        cursor:pointer;
+    }
+}
+
+.navegador {
+    background-color: $rosa;
+}
+
+.indicators {
+    display: none;
+}
