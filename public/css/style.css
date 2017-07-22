@@ -1,0 +1,18 @@
+.slider, .slider .slides {
+  height: 100vh !important;
+  display: flex;
+  align-items: flex-end; }
+  .slider #btn-contacto {
+    border: solid 1px;
+    cursor: pointer; }
+  .slider #go-down {
+    margin-left: 45vw;
+    cursor: pointer; }
+
+.navegador {
+  background-color: #ff00bf; }
+
+.indicators {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */
